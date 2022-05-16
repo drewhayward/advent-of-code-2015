@@ -1,8 +1,4 @@
-from logging.config import valid_ident
 import operator
-from pprint import pprint
-from string import ascii_lowercase
-from xmlrpc.client import INVALID_ENCODING_CHAR
 
 def parse_line(line):
     lhs, rhs = line.split(" -> ")
